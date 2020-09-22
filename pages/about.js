@@ -1,7 +1,12 @@
-const AboutPage = () => {
-  console.log('about component');
+import Navbar from '../components/Navbar';
 
-  return <h1>this is the about page</h1>;
+const AboutPage = () => {
+  return (
+    <>
+      <Navbar />
+      <h1>this is the about page</h1>
+    </>
+  );
 };
 
 export default AboutPage;

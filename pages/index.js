@@ -1,17 +1,12 @@
-import Link from 'next/link';
+import Navbar from '../components/Navbar';
 
 const Index = () => {
   console.log('index component');
   return (
-    <div>
-      <Link href="/about">
-        <a>About Page</a>
-      </Link>
-      <Link href="/contact">
-        <a>Contact Page</a>
-      </Link>
+    <>
+      <Navbar />
       <h1>our index page</h1>
-    </div>
+    </>
   );
 };
 
