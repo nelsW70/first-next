@@ -4,7 +4,6 @@ const Index = () => {
   console.log('index component');
   return (
     <>
-      <Navbar />
       <h1>our index page</h1>
     </>
   );
